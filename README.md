@@ -1,0 +1,1 @@
+# eurozone-ecommerce-datagenerator
