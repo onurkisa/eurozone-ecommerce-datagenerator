@@ -14,7 +14,7 @@ This document details the business logic, simulation algorithms, and data genera
 
 ---
 
-### [`customers.py`](./customers.py)
+### [`customers.py`](./Scripts/customers.py)
 
 #### Purpose
 Generates realistic customer demographics and address data for Eurozone e-commerce simulation, with customer allocations driven by **[eurozone-ecommerce-modeling](https://github.com/onurkisa/eurozone-ecommerce-modeling)** outputs.
@@ -60,7 +60,7 @@ Creates a comprehensive product catalog with Eurozone-wide base pricing and coun
 
 ---
 
-### [`shipment_company.py`](./shipment_company.py)
+### [`shipment_company.py`](./Scripts/shipment_company.py)
 
 #### Purpose
 Generates a realistic roster of shipping and delivery companies operating across Eurozone markets with various service offerings.
@@ -81,7 +81,7 @@ Generates a realistic roster of shipping and delivery companies operating across
 
 ---
 
-### [`payment_channel.py`](./payment_channel.py)
+### [`payment_channel.py`](./Scripts/payment_channel.py)
 
 #### Purpose
 Creates a comprehensive list of payment methods and providers available across Eurozone markets, including both global and local payment solutions.
@@ -102,7 +102,7 @@ Creates a comprehensive list of payment methods and providers available across E
 
 ---
 
-### [`orders_n_orderdetail.py`](./orders_n_orderdetail.py)
+### [`orders_n_orderdetail.py`](./Scripts/orders_n_orderdetail.py)
 
 #### Purpose
 Generates the core transactional data (orders and order details) with sophisticated basket behavior modeling based on economic indicators and customer segments, serving as the primary fact table for data warehouse analytics.
@@ -131,7 +131,7 @@ Generates the core transactional data (orders and order details) with sophistica
 
 ---
 
-### [`shipments.py`](./shipments.py)
+### [`shipments.py`](./Scripts/shipments.py)
 
 #### Purpose
 Generates realistic shipment records for eligible orders, simulating the logistics and delivery process with appropriate carrier assignment and status tracking.
@@ -154,7 +154,7 @@ Generates realistic shipment records for eligible orders, simulating the logisti
 
 ---
 
-### [`invoice_n_invoicedetail.py`](./invoice_n_invoicedetail.py)
+### [`invoice_n_invoicedetail.py`](./Scripts/invoice_n_invoicedetail.py)
 
 #### Purpose
 Processes completed orders to generate VAT-compliant invoices and detailed line items, ensuring proper financial record-keeping across Eurozone jurisdictions.
